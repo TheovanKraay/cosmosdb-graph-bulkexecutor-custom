@@ -1,0 +1,32 @@
+[
+  {
+    "Label": "Person",
+    "Name": "Abi",
+    "Age": "39",
+  },
+  {
+    "Label": "Person",
+    "Name": "Bob",
+    "Age": "25",
+  },
+  {
+    "Label": "Person",
+    "Name": "Dave",
+    "Age": "25",
+  },
+  {
+    "Label": "Person",
+    "Name": "Theo",
+    "Age": "21",
+  },
+  {
+    "Label": "Person",
+    "Name": "Sarah",
+    "Age": "21",
+  },
+  {
+    "Label": "Person",
+    "Name": "Mike",
+    "Age": "30",
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "vertex1": "Abi",
+    "edge": "knows",
+    "vertex2": "Bob",
+  },
+  {
+    "vertex1": "Bob",
+    "edge": "knows",
+    "vertex2": "Theo",
+  },
+  {
+    "vertex1": "Theo",
+    "edge": "loves",
+    "vertex2": "Abi",
+  },
+  {
+    "vertex1": "Dave",
+    "edge": "hates",
+    "vertex2": "Bob",
+  },
+  {
+    "vertex1": "Mike",
+    "edge": "knows",
+    "vertex2": "Theo",
+  },
+  {
+    "vertex1": "Bob",
+    "edge": "hates",
+    "vertex2": "Abi",
+  },
+  {
+    "vertex1": "Dave",
+    "edge": "loves",
+    "vertex2": "Theo",
+  }
+]
