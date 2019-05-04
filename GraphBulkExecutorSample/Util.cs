@@ -118,7 +118,7 @@ namespace GraphBulkImportSample
             public string vertex2 { get; set; }
             public string Label { get; set; }
             public string Name { get; set; }
-            public string Age { get; set; }
+            public string pk { get; set; }
         }
 
         public static IEnumerable<GremlinEdge> GenerateEdgesCustom(long count)
@@ -143,8 +143,8 @@ namespace GraphBulkImportSample
                         rootObject.vertex2,
                         "vertex",
                         "vertex",
-                        rootObject.vertex1,
-                        rootObject.vertex2);
+                        rootObject.pk,
+                        rootObject.pk);
 
                     e.AddProperty("duration", 0);
                     counter++;
@@ -173,9 +173,9 @@ namespace GraphBulkImportSample
                 foreach (var rootObject in RootObjects)
                 {
                     GremlinVertex v = new GremlinVertex(rootObject.Name, "vertex");
-                    v.AddProperty(ConfigurationManager.AppSettings["CollectionPartitionKey"], rootObject.Name);
+                    v.AddProperty(ConfigurationManager.AppSettings["CollectionPartitionKey"], rootObject.pk);
                     v.AddProperty("Name", rootObject.Name);
-                    v.AddProperty("Age", rootObject.Age);
+                    //v.AddProperty("Age", rootObject.Age);
 
                     yield return v;
                 }

@@ -1,32 +1,37 @@
 [
   {
-    "Label": "Person",
-    "Name": "Abi",
-    "Age": "39",
+    "Label": "Level Area",
+    "Name": "Ticket Hall", 
+    "pk": "pk" 
   },
   {
-    "Label": "Person",
-    "Name": "Bob",
-    "Age": "25",
+    "Label": "Level Area",
+    "Name": "Main Entrance", 
+    "pk": "pk" 
   },
   {
-    "Label": "Person",
-    "Name": "Dave",
-    "Age": "25",
+    "Label": "Escalator",
+    "Name": "Escalator 1", 
+    "pk": "pk" 
   },
   {
-    "Label": "Person",
-    "Name": "Theo",
-    "Age": "21",
+     "Label": "Escalator",
+     "Name": "Escalator 5", 
+     "pk": "pk" 
   },
   {
-    "Label": "Person",
-    "Name": "Sarah",
-    "Age": "21",
+    "Label": "Lift",
+    "Name": "Lift 2", 
+    "pk": "pk" 
   },
   {
-    "Label": "Person",
-    "Name": "Mike",
-    "Age": "30",
+    "Label": "Level Area",
+    "Name": "Platform 1 and 2", 
+    "pk": "pk" 
+  },
+  {
+    "Label": "Level Area",
+    "Name": "Platform 3", 
+    "pk": "pk" 
   }
 ]

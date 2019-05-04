@@ -1,37 +1,50 @@
 [
   {
-    "vertex1": "Abi",
-    "edge": "knows",
-    "vertex2": "Bob",
+    "vertex1": "Main Entrance",
+    "edge": "route",
+    "vertex2": "Escalator 1",
+    "pk": "pk"
+  }, 
+  {
+    "vertex1": "Main Entrance",
+    "edge": "route",
+    "vertex2": "Lift 1",
+    "pk": "pk"
+  }, 
+  {
+    "vertex1": "Escalator 1",
+    "edge": "route",
+    "vertex2": "Ticket Hall",
+    "pk": "pk"
   },
   {
-    "vertex1": "Bob",
-    "edge": "knows",
-    "vertex2": "Theo",
+    "vertex1": "Lift 1",
+    "edge": "route",
+    "vertex2": "Ticket Hall",
+    "pk": "pk" 
   },
   {
-    "vertex1": "Theo",
-    "edge": "loves",
-    "vertex2": "Abi",
+    "vertex1": "Ticket Hall",
+    "edge": "route",
+    "vertex2": "Escalator 5",
+    "pk": "pk" 
   },
   {
-    "vertex1": "Dave",
-    "edge": "hates",
-    "vertex2": "Bob",
+    "vertex1": "Ticket Hall",
+    "edge": "route",
+    "vertex2": "Lift 2",
+    "pk": "pk" 
   },
   {
-    "vertex1": "Mike",
-    "edge": "knows",
-    "vertex2": "Theo",
-  },
+    "vertex1": "Escalator 5",
+    "edge": "route",
+    "vertex2": "Platform 1 and 2",
+    "pk": "pk" 
+  },  
   {
-    "vertex1": "Bob",
-    "edge": "hates",
-    "vertex2": "Abi",
-  },
-  {
-    "vertex1": "Dave",
-    "edge": "loves",
-    "vertex2": "Theo",
+    "vertex1": "Lift 2",
+    "edge": "route",
+    "vertex2": "Platform 3",
+    "pk": "pk" 
   }
 ]
