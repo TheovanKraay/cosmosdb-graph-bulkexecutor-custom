@@ -25,6 +25,11 @@
     "pk": "pk" 
   },
   {
+    "Label": "Stairs",
+    "Name": "Stairs", 
+    "pk": "pk" 
+  },
+  {
     "Label": "Level Area",
     "Name": "Platform 1 and 2", 
     "pk": "pk" 

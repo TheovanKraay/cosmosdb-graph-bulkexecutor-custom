@@ -36,6 +36,12 @@
     "pk": "pk" 
   },
   {
+    "vertex1": "Ticket Hall",
+    "edge": "route",
+    "vertex2": "Stairs",
+    "pk": "pk" 
+  },
+  {
     "vertex1": "Escalator 5",
     "edge": "route",
     "vertex2": "Platform 1 and 2",
@@ -43,6 +49,12 @@
   },  
   {
     "vertex1": "Lift 2",
+    "edge": "route",
+    "vertex2": "Platform 3",
+    "pk": "pk" 
+  },  
+  {
+    "vertex1": "Stairs",
     "edge": "route",
     "vertex2": "Platform 3",
     "pk": "pk" 
