@@ -2,21 +2,16 @@
   {
     "Label": "Station",
     "Name": "North Greenwich", 
-    "pk": "mobile" 
-  },
-  {
-    "Label": "Station",
-    "Name": "Canning Town", 
-    "pk": "mobile" 
+    "pk": "immobile" 
   },
   {
     "Label": "Station",
     "Name": "West Ham", 
-    "pk": "mobile" 
+    "pk": "immobile" 
   },
   {
     "Label": "Station",
     "Name": "Star Lane", 
-    "pk": "mobile" 
+    "pk": "immobile" 
   }
 ]

@@ -139,8 +139,8 @@ namespace GraphBulkImportSample
                     GremlinEdge e = new GremlinEdge(
                         "e"+ counter+rootObject.vertex1,
                         rootObject.edge,
-                        rootObject.vertex1,
-                        rootObject.vertex2,
+                        rootObject.vertex1+" "+rootObject.pk,
+                        rootObject.vertex2+" "+ rootObject.pk,
                         "vertex",
                         "vertex",
                         rootObject.pk,
@@ -172,7 +172,7 @@ namespace GraphBulkImportSample
                 var RootObjects = JsonConvert.DeserializeObject<List<RootObject>>(jsonValue);
                 foreach (var rootObject in RootObjects)
                 {
-                    GremlinVertex v = new GremlinVertex(rootObject.Name, "vertex");
+                    GremlinVertex v = new GremlinVertex(rootObject.Name +" "+rootObject.pk, "vertex");
                     v.AddProperty(ConfigurationManager.AppSettings["CollectionPartitionKey"], rootObject.pk);
                     v.AddProperty("Name", rootObject.Name);
                     //v.AddProperty("Age", rootObject.Age);

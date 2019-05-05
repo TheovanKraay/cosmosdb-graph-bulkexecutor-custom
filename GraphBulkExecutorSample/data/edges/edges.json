@@ -1,62 +1,26 @@
 [
   {
-    "vertex1": "Main Entrance",
-    "edge": "route",
-    "vertex2": "Escalator 1",
-    "pk": "pk"
+    "vertex1": "North Greenwich",
+    "edge": "interchange",
+    "vertex2": "Canning Town",
+    "pk": "mobile"
   }, 
   {
-    "vertex1": "Main Entrance",
+    "vertex1": "Canning Town",
     "edge": "route",
-    "vertex2": "Lift 1",
-    "pk": "pk"
+    "vertex2": "Star Lane",
+    "pk": "mobile"
   }, 
   {
-    "vertex1": "Escalator 1",
-    "edge": "route",
-    "vertex2": "Ticket Hall",
-    "pk": "pk"
+    "vertex1": "North Greenwich",
+    "edge": "interchange",
+    "vertex2": "West Ham",
+    "pk": "mobile"
   },
   {
-    "vertex1": "Lift 1",
+    "vertex1": "West Ham",
     "edge": "route",
-    "vertex2": "Ticket Hall",
-    "pk": "pk" 
-  },
-  {
-    "vertex1": "Ticket Hall",
-    "edge": "route",
-    "vertex2": "Escalator 5",
-    "pk": "pk" 
-  },
-  {
-    "vertex1": "Ticket Hall",
-    "edge": "route",
-    "vertex2": "Lift 2",
-    "pk": "pk" 
-  },
-  {
-    "vertex1": "Ticket Hall",
-    "edge": "route",
-    "vertex2": "Stairs",
-    "pk": "pk" 
-  },
-  {
-    "vertex1": "Escalator 5",
-    "edge": "route",
-    "vertex2": "Platform 1 and 2",
-    "pk": "pk" 
-  },  
-  {
-    "vertex1": "Lift 2",
-    "edge": "route",
-    "vertex2": "Platform 3",
-    "pk": "pk" 
-  },  
-  {
-    "vertex1": "Stairs",
-    "edge": "route",
-    "vertex2": "Platform 3",
-    "pk": "pk" 
+    "vertex2": "Star Lane",
+    "pk": "mobile" 
   }
 ]

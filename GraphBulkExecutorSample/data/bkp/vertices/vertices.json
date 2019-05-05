@@ -1,0 +1,42 @@
+[
+  {
+    "Label": "Level Area",
+    "Name": "Ticket Hall", 
+    "pk": "pk" 
+  },
+  {
+    "Label": "Level Area",
+    "Name": "Main Entrance", 
+    "pk": "pk" 
+  },
+  {
+    "Label": "Escalator",
+    "Name": "Escalator 1", 
+    "pk": "pk" 
+  },
+  {
+     "Label": "Escalator",
+     "Name": "Escalator 5", 
+     "pk": "pk" 
+  },
+  {
+    "Label": "Lift",
+    "Name": "Lift 2", 
+    "pk": "pk" 
+  },
+  {
+    "Label": "Stairs",
+    "Name": "Stairs", 
+    "pk": "pk" 
+  },
+  {
+    "Label": "Level Area",
+    "Name": "Platform 1 and 2", 
+    "pk": "pk" 
+  },
+  {
+    "Label": "Level Area",
+    "Name": "Platform 3", 
+    "pk": "pk" 
+  }
+]

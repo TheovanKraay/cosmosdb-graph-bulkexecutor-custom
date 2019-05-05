@@ -1,0 +1,14 @@
+[ 
+  {
+    "vertex1": "North Greenwich",
+    "edge": "interchange",
+    "vertex2": "West Ham",
+    "pk": "immobile"
+  },
+  {
+    "vertex1": "West Ham",
+    "edge": "route",
+    "vertex2": "Star Lane",
+    "pk": "immobile" 
+  }
+]
